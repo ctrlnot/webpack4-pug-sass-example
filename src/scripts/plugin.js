@@ -1,1 +1,1 @@
-console.log("loading plugins");
+console.log('loaded plugin.js');

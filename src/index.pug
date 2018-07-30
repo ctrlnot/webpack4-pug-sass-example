@@ -1,7 +1,12 @@
-- var name = '@aytic'
 doctype html
 html
   head
     title Example
   body
+    - const name = '@aytic'
     h1 Webpack 4 PUG/SASS config by #{name}
+
+    include ./templates/hello
+
+    script
+      include ./scripts/plugin.js
